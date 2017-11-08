@@ -44,6 +44,9 @@ namespace Book
 
         }
         public void buyNewBook(Book b) {
+            //var extra = new List<Book>(bookList);
+            //extra.Add(b);
+            //bookList = extra.ToArray();
             if (totalBookCopyCount < bookList.Length)
             {
                 bookList[totalBookCopyCount++] = b;
